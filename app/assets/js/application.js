@@ -1,16 +1,16 @@
 $(function () {
 
-    var hashtag = 'tonacamara';
+    var hashtag = 'estagioparticipacao';
     $('.hashtag').html('#'+hashtag);
   
-    var instatags = [hashtag, 'tônacamara', 'tônacâmara']
+    var instatags = [hashtag, 'eparticipacao']
   
   $(instatags).each(function() {
     tag = String(this);
     var feed = new Instafeed({
       get: 'tagged',
       tagName: tag,
-      limit: 8,
+      limit: 16,
       resolution: 'standard_resolution',
       clientId: '580e9844a5a3431a80641d571f8af4ce',
       target: 'instagram',
