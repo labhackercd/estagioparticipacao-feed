@@ -14,7 +14,7 @@ $(function () {
       resolution: 'standard_resolution',
       clientId: '580e9844a5a3431a80641d571f8af4ce',
       target: 'instagram',
-      template: '<div class="superbox-list"><div style="background-image: url({{image}})" class="superbox-img"></div></div>',
+      template: '<div class="superbox-list"><div style="background-image: url({{image}})" data-img="{{image}}" class="superbox-img"></div></div>',
       after: function() {      
         $('#instagram').SuperBox();      
       }
