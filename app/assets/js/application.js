@@ -1,9 +1,9 @@
 $(function () {
 
-    var hashtag = 'estagioparticipacao';
+    var hashtag = 'eparticipacao';
     $('.hashtag').html('#'+hashtag);
   
-    var instatags = [hashtag, 'eparticipacao']
+    var instatags = [hashtag, 'estagioparticipacao']
   
   $(instatags).each(function() {
     tag = String(this);
