@@ -89,9 +89,10 @@ header {
 
 #instagram {
   font-family: 'besom';
-  font-size: 1.2em;
+  font-size: 0;
   display: none;
   position: relative;
+  padding-bottom: 7rem;
 }
 
 #tt-frame {
@@ -104,9 +105,13 @@ header {
 
 .seemore {
   position: absolute;
+  text-align: center;
   right: 0;
-  bottom: -35px;
-  margin-right: 25px;
+  left: 0;
+  bottom: 0;
+  font-size: 3.5rem;
+  margin: auto;
+
 }
 
 .tt {
