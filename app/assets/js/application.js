@@ -51,7 +51,7 @@ $(function () {
         vid = [];
         i = 0;
     
-    request = request + 'order=' + order + '&' + 'part=' + part + '&' + 'q=' + q + '&' + 'key=' + api_key;
+    request = request + 'order=' + order + '&' + 'part=' + part + '&' + 'q=' + '%23' + q + '&' + 'key=' + api_key;
     console.log(request);
     
     $.getJSON( String(request), function( json ) {
